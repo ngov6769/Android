@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/hoten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:text="Ho va ten sinh vien"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/namsinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hoten"
+        android:text="Nam sinh: 2002"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:textColor="#ff00"
+        android:id="@+id/diachi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hoten"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="Ho Chi Minh"
+        android:textSize="18dp" />
+
+    <ImageButton
+        android:id="@+id/xoa"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/delete_24" />
+    <ImageButton
+        android:id="@+id/sua"
+        android:background="@null"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/xoa"
+        android:src="@drawable/edit_24" />
+
+</RelativeLayout>
