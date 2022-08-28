@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "357871692966",
+    "project_id": "loginoop",
+    "storage_bucket": "loginoop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357871692966:android:79dded13575dcf8a6dd867",
+        "android_client_info": {
+          "package_name": "com.example.applogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357871692966-hr75g2hdua9ht1mvje5m2436jl2hpl1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.applogin",
+            "certificate_hash": "f0d3482f22d112269e33d781630223b56e47d911"
+          }
+        },
+        {
+          "client_id": "357871692966-rps9vm5of06qch1i43b2dh9n551croid.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDszZCDt_XPRtQTzYnM_r_nXa8Jibh5cbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357871692966-rps9vm5of06qch1i43b2dh9n551croid.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
