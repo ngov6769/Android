@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/tieude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#08FF00"
+        android:padding="25dp"
+        android:text="Thêm đồ vật mới"
+        android:textSize="25dp" />
+    <EditText
+        android:id="@+id/nhapten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tieude"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="28dp"
+        android:hint="Nhập tên đồ vật"
+        android:paddingLeft="10dp" />
+    <EditText
+        android:id="@+id/mota"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/nhapten"
+        android:hint="Nhập mô tả"
+        android:layout_marginRight="28dp"
+        android:layout_marginLeft="28dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:src="@drawable/image_96"
+        android:id="@+id/anh"
+        android:layout_width="239dp"
+        android:layout_height="234dp"
+        android:layout_below="@+id/mota"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <ImageButton
+        android:id="@+id/camera"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/anh"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@null"
+        android:src="@drawable/camera_60" />
+
+    <ImageButton
+        android:id="@+id/colection"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/anh"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="50dp"
+        android:background="@null"
+        android:src="@drawable/folder_60" />
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/conform"
+            android:text="Xác nhận"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cancel"
+            android:layout_weight="1"
+            android:text="Hủy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>
