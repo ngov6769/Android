@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Click notification</string>
+    <string name="send">Send Notification</string>
+    <string name="next">Next Notification</string>
+</resources>
