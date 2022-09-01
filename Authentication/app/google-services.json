@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1064158847374",
+    "project_id": "auth-modau",
+    "storage_bucket": "auth-modau.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064158847374:android:189d2897dd75dcd1ae44df",
+        "android_client_info": {
+          "package_name": "com.example.authentication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064158847374-c4rjccd2ql5ic4u2c6pa5b1ahhl5nu6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXvKAGsjJAcqaGa3mZwzZpab1G-22z8_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064158847374-c4rjccd2ql5ic4u2c6pa5b1ahhl5nu6v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
