@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/main"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/ios"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:paddingLeft="10dp"
+            android:text="IOS"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:paddingLeft="10dp"
+            android:text="ANDROID"
+            android:textSize="20dp" />
+
+        <CheckBox
+            android:id="@+id/web"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:paddingLeft="10dp"
+            android:text="WEB"
+            android:textSize="20dp" />
+        <Button
+            android:id="@+id/xatnhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:text="CONFROM" />
+    </LinearLayout>
+</RelativeLayout>
