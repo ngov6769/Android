@@ -1,0 +1,349 @@
+android:scaleType="fitXY"//tỉ lệ
+android:orderInCategory="1"//thứ tự trong danh mục
+app:showAsAction="always"
+setResult(RESULT_OK,intent);
+Collections.shuffle(MainActivity.arrayname);
+Base64.encodeToString(bytes,Base64.DEFAULT);
+byte[] bytes = Base64.decode(manager.getString(Constants.KEY_IMAGE),Base64.DEFAULT);
+RemoteViews remoteView = new RemoteViews(getPackageName(),R.layout.title_notification);
+DatabaseSQL extends SQLiteOpenHelper
+Task<Uri> result = taskSnapshot.getStorage().getDownloadUrl();
+caytg.setProgress(mediaPlayer.getCurrentPosition());
+mediaPlayer.seekTo(caytg.getProgress());
+
+adapter.notifyItemRangeInserted(chatMessages.size(),chatMessages.size());
+                    listChat.smoothScrollToPosition(chatMessages.size()-1);
+
+//di voi on truyen du lieu
+Socket socket = IO.socket("http://192.168.1.7:3000/");
+socket.connect();
+JSONObject object = (JSONObject) args[0];
+Emitter.Listener onRetrieveData = new Emitter.Listener()
+runOnUiThread(new Runnable())
+
+Animation animalpha = AnimationUtils.loadAnimation(this,R.anim.anim_alpha);
+android:fillAfter="true" //giữ trạng thái sau khi chạy
+<translate
+        android:startOffset="2000"
+        android:fromYDelta="0"
+        android:toYDelta="-1480"
+        android:duration="2100"
+        android:repeatCount="infinite"/>
+<rotate
+        android:fromDegrees="30"
+        android:toDegrees="-30"
+        android:pivotY="10%"
+        android:pivotX="50%"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+        android:duration="1000"/>
+
+TaskStackBuilder stack = TaskStackBuilder.create(getApplicationContext());
+stack.addNextIntentWithParentStack(intent);
+PendingIntent pendingIntent = stack.getPendingIntent(1,PendingIntent.FLAG_CANCEL_CURRENT);
+PendingIntent pendingIntent = PendingIntent.getActivity(this,0,intent ,PendingIntent.FLAG_UPDATE_CURRENT);
+
+Uri uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
+AudioAttributes attributes = new AudioAttributes.Builder()
+.setUsage(AudioAttributes.USAGE_NOTIFICATION)
+.build();
+android:layout_height="?attr/actionBarSize"
+
+setSupportActionBar(toolbar);
+        if(getSupportActionBar()!=null){
+            Objects.requireNonNull(getSupportActionBar()).setDisplayHomeAsUpEnabled(true);
+        }
+Palette.from(bitmap).generate(new Palette.PaletteAsyncListener() {
+            @Override
+            public void onGenerated(@Nullable Palette palette) {
+                int color = palette.getVibrantColor(getResources().getColor(R.color.purple_500));
+                collapsingToolbarLayout.setContentScrimColor(color);
+                collapsingToolbarLayout.setStatusBarScrimColor(getResources().getColor(R.color.black));
+            }
+        });
+        appBarLayout.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
+            @Override
+            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
+                if(Math.abs(verticalOffset)>200) isExpended = false;
+                else isExpended = true;
+                invalidateOptionsMenu();
+            }
+        });
+
+onPrepareOptionsMenu(Menu menu)
+tmenu.add("Add").setIcon(R.drawable.icons8_add_30).setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
+
+public class UserHoder extends RecyclerView.ViewHolder //Tim Id
+public int getItemCount()
+onBindViewHolder(@NonNull UserHoder holder, int position) //Truyen data vao
+UserHoder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.dong_user,parent,false);
+return new UserHoder(view);
+class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserHoder>
+public int getItemViewType(int position) //Sát định kiểu layout của hoder
+
+registerForContextMenu(btchon);
+onCreateContextMenu(Menu menu)
+onContextItemSelected
+menu.setHeaderTitle("Chọn màu");
+getMenuInflater().inflate(R.menu.menu_context, menu);
+menu.setHeaderIcon(R.mipmap.ic_launcher);
+manhinh.setBackgroundColor(Color.RED);
+
+onCreateOptionsMenu(Menu menu) 
+getMenuInflater().inflate(R.menu.menu_context, menu);
+onOptionsItemSelected
+
+Calendar calendar = Calendar.getInstance();
+Day day = new Day();
+
+LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+convertView=inflater.inflate(layout,null);
+convertView.setTag(view1);
+
+AlertDialog.Builder alertDialog = new AlertDialog.Builder(MainActivity.this);
+alertDialog.setTitle("Thông báo!");
+alertDialog.setIcon(R.mipmap.ic_launcher_round);
+alertDialog.setMessage("Bạn có muốn xóa môn "+arrayList.get(i)+" không?");
+alertDialog.setNegativeButton("Có",new DialogInterface.OnClickListener();
+alertDialog.setPositiveButton("Không", new DialogInterface.OnClickListener();
+
+PopupMenu popupMenu = new PopupMenu(this,btpopup);
+popupMenu.getMenuInflater().inflate(R.menu.menu_popup,popupMenu.getMenu());
+popupMenu.show();
+popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener()
+if(item.getItemId()==R.id.sua)
+
+Dialog dialog=new Dialog(this);
+dialog.setContentView(R.layout.custom_dialog);
+dialog.setCanceledOnTouchOutside(false);
+dialog.cancel();
+dialog.show();
+
+int tinh_ngay = (int) ((calendar2.getTimeInMillis()-calendar1.getTimeInMillis())/(1000*60*60*24));
+
+DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://loginoop-default-rtdb.firebaseio.com/");
+databaseReference.child("users").child(phonetxt).child("fullname").setValue(fullnametxt);
+databaseReference.child("users").child(phonetxt).child("email").setValue(emailtxt);
+databaseReference.child("users").child(phonetxt).child("pass").setValue(passtxt);
+databaseReference.child("users").addListenerForSingleValueEvent(new ValueEventListener()
+final String getpassword = snapshot.child(phonetxt).child("pass").getValue(String.class);
+
+intent.setAction(Intent.ACTION_VIEW);
+intent.setData(Uri.parse("http://khoapham.vn"));
+intent.setAction(Intent.ACTION_SENDTO);
+intent.putExtra("sms_body","Chao ban ...");
+intent.setData(Uri.parse("sms:0354342295"));
+intent.setAction(Intent.ACTION_CALL);
+intent.setData(Uri.parse("tel:0358342295"));
+public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+if (requestCode == 123 && grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED)
+ActivityCompat.requestPermissions(MainActivity.this,new String[]{Manifest.permission.CALL_PHONE},123);//lay quyen
+
+Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+if(requestCode == cvb&&resultCode == RESULT_OK&&data != null){
+Bitmap bitmap = (Bitmap) data.getExtras().get("data");
+ivanh.setImageBitmap(bitmap);}
+super.onActivityResult(requestCode, resultCode, data);}
+
+android:thumb = "@drawable/chicken_20"
+android:progressDrawable = "@android:color/transparent"
+CountDownTimer countDownTimer = new CountDownTimer(20000,100)
+style="@android:style/Widget.ProgressBar.Horizontal"
+
+URL url = new URL(strings[0]);
+InputStream inputStream = url.openConnection().getInputStream();
+InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
+BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+while((line=bufferedReader.readLine()) != null){
+content.append(line+"\n");
+
+JSONObject object = new JSONObject(s);
+JSONArray array = object.getJSONArray("danhsach");
+anhbm = BitmapFactory.decodeStream(inputStream);
+
+webview.loadUrl(link);
+webview.setWebViewClient(new WebViewClient());
+
+Handler handler = new Handler();
+handler.postDelayed(new Runnable()
+handler.postDelayed(this,100);
+ClipDrawable clipDrawable = (ClipDrawable) ivanh.getDrawable();
+
+overridePendingTransition(R.anim.anim_in,R.anim.anim_out);
+Intent intent = getIntent();
+Bundle bundle = intent.getBundleExtra("dulieu");
+-----------------------------------------------------------------------------------------------------------------------------------------
+sharedPreferences = getSharedPreferences("inputdata",MODE_PRIVATE);
+user.setText(sharedPreferences.getString("user",""));
+SharedPreferences.Editor editor=sharedPreferences.edit();
+editor.putString("user",ten);
+editor.remove("check");
+editor.commit();
+
+RequestQueue requestQueue = Volley.newRequestQueue(MainActivity.this);
+JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null,
+new Response.Listener<JSONArray>()
+new Response.ErrorListener()
+
+databaseSQL = new DatabaseSQL(MainActivity.this,"MySQL",null,1);
+databaseSQL.Database("CREATE TABLE IF NOT EXISTS CONGVIEC(ID INTEGER PRIMARY KEY AUTOINCREMENT, TENCV VARCHAR(100))");
+Cursor cursor = databaseSQL.GetDatabase("SELECT * FROM CONGVIEC");
+arrayList.clear();
+while(cursor.moveToNext())
+String a = cursor.getString(1);
+int id = cursor.getInt(0);
+arrayList.add(new Cong_viec(id,a));
+
+SQLiteDatabase database = getWritableDatabase();
+String sql = "INSERT INTO DOVAT VALUES(null,?,?,?)";
+SQLiteStatement statement = database.compileStatement(sql);
+statement.clearBindings();
+statement.bindString(1,ten);
+statement.bindString(2,mota);
+statement.bindBlob(3,hinh);
+statement.executeInsert();
+
+BitmapDrawable bitmapDrawable = (BitmapDrawable) hinhanh.getDrawable();
+Bitmap bitmap = bitmapDrawable.getBitmap();
+ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+bitmap.compress(Bitmap.CompressFormat.PNG,100,byteArrayOutputStream);
+byte[] hinhAnh = byteArrayOutputStream.toByteArray();
+return Base64.encodeToString(hinhAnh,Base64.DEFAULT);
+
+
+byte[] ha = hinhanh.getAnh();
+byte[] ha = Base64.decode(encodeBitmap,Base.DEFAULT);
+Bitmap bitmap = BitmapFactory.decodeByteArray(ha,0,ha.length);
+
+Intent intent = new Intent(Intent.ACTION_PICK);
+intent.setType("image/*");
+ActivityCompat.requestPermissions(ActivityThem.this,new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},CodeColection);
+
+if((requestCode == CodeColection ) && (resultCode == RESULT_OK) && (data != null)){
+Uri uri = data.getData();
+InputStream inputStream = getContentResolver().openInputStream(uri);
+Bitmap anh = BitmapFactory.decodeStream(inputStream);
+hinhanh.setImageBitmap(anh);
+
+FragmentTransaction transition = getFragmentManager().beginTransaction();
+transition.replace(R.id.framelayout,fragment);
+transition.commit();
+
+FragmentA fragmentA = (FragmentA) getFragmentManager().findFragmentById(R.id.fragmenta);
+TextView maintxt = getActivity().findViewById(R.id.tieude);
+
+FragmentDialog fragmentDialog = new FragmentDialog();
+fragmentDialog.show(getFragmentManager(),"dialog");
+Dialog hopThoai = dialog.create();
+onCreateDialog(Bundle savedInstanceState)
+
+fragmentA.setArguments(bundle);
+Bundle bundle = getArguments();
+
+getFragmentManager().popBackStack("a",0);
+transaction.add(R.id.fragmentchung,new FragmentC(),"addC");
+transaction.addToBackStack("c");
+FragmentB fragmentB = (FragmentB) getFragmentManager().findFragmentByTag("addB");
+
+class FragmentList extends ListFragment
+onListItemClick(ListView l, View v, int position, long id)
+if(fragmentInfor!=null && fragmentInfor.isInLayout())
+
+MediaPlayer mediaPlayer = MediaPlayer.create(MainActivity.this,R.raw.hoatuongtu);
+videoView.setVideoURI(Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.bolaiphiasau));
+MediaController mediaController = new MediaController( MainActivity.this);
+mediaController.setAnchorView(videoView);
+videoView.setMediaController(mediaController);
+mediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
+mediaPlayer.setDataSource(url);
+mediaPlayer.prepareAsync();
+mediaPlayer.setOnPreparedListener
+--------------------------------------------------------------------------------------------------------------------------------
+Snackbar.make(view,"How are you?",5000)
+.setActionTextColor(Color.RED)
+.setAction("Fine", new View.OnClickListener()
+
+FirebaseAuth mAuth = FirebaseAuth.getInstance()
+mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>()
+
+class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener
+youTubePlayer.loadVideo("uv8RmisP1iM");
+
+data.child("SinhVien").setValue(sinhVien2, new DatabaseReference.CompletionListener()
+
+auth.createUserWithEmailAndPassword(email, password)
+auth.signInWithEmailAndPassword(email, password)
+auth.sendPasswordResetEmail(email)
+FirebaseUser currentUser = auth.getCurrentUser();
+
+android:name="com.google.android.gms.maps.MapFragment"
+implements OnMapReadyCallback,GoogleMap.OnPolylineClickListener,GoogleMap.OnPolygonClickListener
+MapFragment fragment = (MapFragment) getFragmentManager().findFragmentById(R.id.mymap);
+fragment.getMapAsync(this);
+map.moveCamera(CameraUpdateFactory.newLatLngZoom(sydney,13));
+polyline.setStartCap(new CustomCap(BitmapDescriptorFactory.fromResource(R.drawable.facebook), 30));//ko dung .xml
+polyline.setStartCap(new RoundCap());
+
+arrayname = new ArrayList<>(Arrays.asList(name));
+int hinh=getResources().getIdentifier(arrayname.get(2),"drawable",getPackageName());
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+XMLDOMParser xmldomParser =new XMLDOMParser();
+Document document = xmldomParser.getDocument(s);
+NodeList nodeList = document.getElementsByTagName("item");
+String tieude = "";
+String link = "";
+for(int i=0;i<nodeList.getLength();i++){
+Element element = (Element) nodeList.item(i);
+tieude = xmldomParser.getValue(element,"title");
+link = xmldomParser.getValue(element,"link");
+tieudearray.add(tieude);
+linkarray.add(link);
+adapter.notifyDataSetChanged();
+--------------------------------------------------------------------------------------------------------------------------------
+--link học
+https://drive.google.com/drive/folders/1KKKRQG2pA-0h0RayHhuwKcarCrThcOfj
+https://drive.google.com/drive/folders/1OwgDkLV1h48RuV9Tw4MBbKjfcpgoE2Cp
+https://diaocbienhoa.net/lap-trinh-web-va-lap-trinh-mobile-khac-nhau-o-diem-nao/
+https://openplanning.net/10239/huong-dan-hoc-sql-cho-nguoi-moi-bat-dau-voi-sql-server
+-------------------------------------------------------------------------------------------------------------------------------
+Thư viện
+implementation 'de.hdodenhof:circleimageview:2.1.0'
+implementation 'androidx.palette:palette:1.0.0'
+
+//thư viện socketIO
+implementation ('io.socket:socket.io-client:2.0.0'){
+//excluding org.json which is provided by Android
+exclude group: 'org.json',module:'json'}
+
+//thư viện youtube
+implementation files('libs/YouTubeAndroidPlayerApi.jar')
+//noinspection GradleCompatible
+implementation 'com.android.support:recyclerview-v7:25.1.1'
+implementation 'com.github.bumptech.glide:glide:3.7.0'
+
+//Scalable size unit
+implementation 'com.intuit.sdp:sdp-android:1.0.6'
+implementation 'com.intuit.ssp:ssp-android:1.0.6'
+//Rounded imageview
+implementation 'com.makeramen:roundedimageview:2.3.0'
+//Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.9.0'
+//Retrofit+RxAdapter
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation "com.github.akarnokd:rxjava3-retrofit-adapter:3.0.0"
+//Map
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+
+AdjustResize: Nội dung của hoạt động chính được thay đổi kích thước để nhường chỗ cho nhập liệu mềm, tức là bàn phím
+AdjustPan: Thay vì thay đổi kích thước nội dung tổng thể của cửa sổ, nó chỉ xoay nội dung để người dùng luôn có thể nhìn thấy những gì anh ấy đang nhập
+
+https://www.latlong.net/convert-address-to-lat-long.html
+https://www.googleapis.com/youtube/v3/channels?part=contentDetails&forUsername=OneDirectionVEVO&key={YOUR_API_KEY}
+https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUbW18JZRgko_mOGm5er8Yzg&key={YOUR_API_KEY}
+https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId="+KEY_LISTVIDEO+"&key="+KEY_API+"&maxResults=50
+https://firebasestorage.googleapis.com/v0/b/luu-file-81d49.appspot.com/o/anh1660032440940.png?alt=media&token=75758c8e-51bb-43dc-8283-28221fe32748
